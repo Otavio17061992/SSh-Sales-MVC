@@ -20,7 +20,7 @@ namespace SalesMVCCore.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Sales Web MVC App from C# Course";
-            ViewData["Email"] = "joaoalmeida48@outlook.com";
+            ViewData["Email"] = "joaodevelopercsharp@gmail.com";
 
 
             return View();
