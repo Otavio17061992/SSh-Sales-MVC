@@ -30,3 +30,4 @@ D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\SalesMVCCo
 D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\SalesMVCCore.dll
 D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\SalesMVCCore.pdb
 D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\SalesMVCCore.csproj.CopyComplete
+D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.g.cshtml.cs

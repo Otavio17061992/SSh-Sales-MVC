@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using SalesMVCCore.Models;
+using SalesMVCCore.Models.ViewModels;
 
 using System;
 using System.Collections.Generic;
