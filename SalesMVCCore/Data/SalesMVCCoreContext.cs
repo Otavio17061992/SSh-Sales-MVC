@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesMVCCore.Models;
+using SalesMVCCore.Models.ViewModels;
 
 namespace SalesMVCCore.Data
 {
@@ -14,6 +15,9 @@ namespace SalesMVCCore.Data
         {
         }
 
-        public DbSet<SalesMVCCore.Models.Departments> Departments { get; set; }
+        public DbSet<SalesMVCCore.Models.Department> Departments { get; set; }
+        public DbSet<Seller> Seller { get; set; }
+        public DbSet<SalesRecord> SalesRecords { get; set; }
+
     }
 }

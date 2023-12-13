@@ -34,3 +34,4 @@ D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\Razor\View
 D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Details.g.cshtml.cs
 D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.g.cshtml.cs
 D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.g.cshtml.cs
+D:\ProjetosPessoais\SalesMVCCore\SalesMVCCore\obj\Debug\netcoreapp2.1\SalesMVCCore.csproj.AssemblyReference.cache
