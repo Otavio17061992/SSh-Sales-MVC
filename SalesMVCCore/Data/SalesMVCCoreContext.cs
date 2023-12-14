@@ -15,7 +15,7 @@ namespace SalesMVCCore.Data
         {
         }
 
-        public DbSet<SalesMVCCore.Models.Department> Departments { get; set; }
+        public DbSet<SalesMVCCore.Models.Department> Department { get; set; }
         public DbSet<Seller> Seller { get; set; }
         public DbSet<SalesRecord> SalesRecords { get; set; }
 

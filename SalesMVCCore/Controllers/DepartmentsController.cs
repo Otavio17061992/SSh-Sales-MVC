@@ -22,7 +22,7 @@ namespace SalesMVCCore.Controllers
         // GET: Departments
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Departments.ToListAsync());
+            return View(await _context.Department.ToListAsync());
         }
 
         // GET: Departments/Details/5
@@ -33,7 +33,7 @@ namespace SalesMVCCore.Controllers
                 return NotFound();
             }
 
-            var departments = await _context.Departments
+            var departments = await _context.Department
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (departments == null)
             {
@@ -73,7 +73,7 @@ namespace SalesMVCCore.Controllers
                 return NotFound();
             }
 
-            var departments = await _context.Departments.FindAsync(id);
+            var departments = await _context.Department.FindAsync(id);
             if (departments == null)
             {
                 return NotFound();
@@ -124,7 +124,7 @@ namespace SalesMVCCore.Controllers
                 return NotFound();
             }
 
-            var departments = await _context.Departments
+            var departments = await _context.Department
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (departments == null)
             {
@@ -139,15 +139,15 @@ namespace SalesMVCCore.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var departments = await _context.Departments.FindAsync(id);
-            _context.Departments.Remove(departments);
+            var departments = await _context.Department.FindAsync(id);
+            _context.Department.Remove(departments);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool DepartmentsExists(int id)
         {
-            return _context.Departments.Any(e => e.ID == id);
+            return _context.Department.Any(e => e.ID == id);
         }
     }
 }

@@ -24,9 +24,9 @@ namespace SalesMVCCore.Migrations
                 {
                     table.PrimaryKey("PK_Seller", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Seller_Departments_DepartamentID",
+                        name: "FK_Seller_Department_DepartamentID",
                         column: x => x.DepartamentID,
-                        principalTable: "Departments",
+                        principalTable: "Department",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Restrict);
                 });
