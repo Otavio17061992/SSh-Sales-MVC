@@ -26,7 +26,7 @@ namespace SalesMVCCore.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Departments");
+                    b.ToTable("Department");
                 });
 
             modelBuilder.Entity("SalesMVCCore.Models.ViewModels.SalesRecord", b =>
